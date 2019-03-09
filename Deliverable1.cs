@@ -28,7 +28,6 @@ namespace Deliverable_1
             Console.WriteLine("The average number is " + avNum);
 
             if (num1 > num2 && num1 > num2)
-            
             {
                 Console.WriteLine(num1 + " is the highest number");
             }
