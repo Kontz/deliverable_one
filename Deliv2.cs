@@ -12,7 +12,7 @@ namespace Deliv2
 
         static void Main(string[] args)
         {
-            string travMode ;
+           
 
             Console.WriteLine("What are you in the mood to do?");
            
@@ -57,6 +57,8 @@ namespace Deliv2
                 Console.WriteLine("Invalid option.  Please enter the number of people you are bringing with you.");
                 peepsInput = Console.ReadLine();
             }
+
+            string travMode = Convert.ToString(totPeople);
 
             if (totPeople == 0)
             {
